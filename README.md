@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+kernelSinf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-kernel-sinf/tags). For example,
+
+```javascript
 kernelSinf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var kernelSinf = require( 'path/to/vendor/umd/math-base-special-kernel-sinf/inde
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -104,7 +109,7 @@ v = kernelSinf( NaN );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
