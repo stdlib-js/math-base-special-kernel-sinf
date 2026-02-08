@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import kernelSinf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@esm/index.mjs';
+import kernelSinf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@v0.1.1-esm/index.mjs';
 ```
 
 #### kernelSinf( x )
@@ -82,7 +82,7 @@ v = kernelSinf( NaN );
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
 import PI from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-float64-pi@esm/index.mjs';
-import kernelSinf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@esm/index.mjs';
+import kernelSinf from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-kernel-sinf@v0.1.1-esm/index.mjs';
 
 var x = linspace( -PI/4.0, PI/4.0, 100 );
 
